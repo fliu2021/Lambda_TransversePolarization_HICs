@@ -4,8 +4,8 @@
 void plot(){
 
 	   double sqrt_sNN = 3.0;
-      double alpha = 0.642;
-
+      //double alpha = 0.642;
+      double alpha = 0.747;
 	   int *centrality_charged_multi_higher; 
        int *centrality_charged_multi_lower ;
 
@@ -616,10 +616,10 @@ void plot(){
       h1D_lambda_xF_distribution->SetMarkerSize(1.0);
       h1D_lambda_xF_distribution->Draw("EP");
       text->SetTextSize(0.04);
-      text->DrawLatexNDC(0.65, 0.87, "#Lambda JAM2");
-      text->DrawLatexNDC(0.65, 0.79, "20 % - 50 %");
-      text->DrawLatexNDC(0.65, 0.71, "#sqrt{s_{NN}} = 3.0 GeV");
-      text->DrawLatexNDC(0.65, 0.63, "P_{T, #Lambda} > 0.7 GeV/c, |y_#Lambda| < 1.0");
+      text->DrawLatexNDC(0.61, 0.87, "#Lambda JAM2");
+      text->DrawLatexNDC(0.61, 0.79, "20 % - 50 %");
+      text->DrawLatexNDC(0.61, 0.71, "#sqrt{s_{NN}} = 3.0 GeV");
+      text->DrawLatexNDC(0.61, 0.63, "P_{T, #Lambda} > 0.7 GeV/c, |y_{#Lambda}| < 1.0");
       c7->SaveAs("plot/lambda_xF.png");
       c7->SaveAs("plot/lambda_xF.pdf");
 
@@ -777,7 +777,7 @@ void plot(){
       text->DrawLatexNDC(0.20, 0.47, "#Lambda JAM2");
       text->DrawLatexNDC(0.20, 0.39, "20 % - 50 %");
       text->DrawLatexNDC(0.20, 0.31, "#sqrt{s_{NN}} = 3.0 GeV");
-      text->DrawLatexNDC(0.20, 0.23, "P_{T,#Lambda} > 0.7 GeV/c, 0 < y_{#Lambda} < 1.0");
+      text->DrawLatexNDC(0.20, 0.23, "P_{T, #Lambda} > 0.7 GeV/c, 0 < y_{#Lambda} < 1.0");
       text->DrawLatexNDC(0.68, 0.68, "Fit: #bar{P}_{#Lambda}^{(GP)} + c sin(#phi_{#Lambda} - #phi_{p}*)");
 
       c9_1->SaveAs("plot/sin_phi_star_EP_y_pos.png");
@@ -868,7 +868,7 @@ void plot(){
       h1D_dN_dcos_thets_star_unweight->GetYaxis()->CenterTitle();
       h1D_dN_dcos_thets_star_unweight->SetLineColor(kRed);
       h1D_dN_dcos_thets_star_unweight->SetMarkerColor(kRed);
-      h1D_dN_dcos_thets_star_unweight->SetMarkerStyle(21);
+      h1D_dN_dcos_thets_star_unweight->SetMarkerStyle(4);
       h1D_dN_dcos_thets_star_unweight->SetMarkerSize(1.0);
       h1D_dN_dcos_thets_star_unweight->Draw("EP");
       
@@ -877,7 +877,7 @@ void plot(){
       text->DrawLatexNDC(0.65, 0.87, "#Lambda JAM2");
       text->DrawLatexNDC(0.65, 0.79, "20 % - 50 %");
       text->DrawLatexNDC(0.65, 0.71, "#sqrt{s_{NN}} = 3.0 GeV");
-      text->DrawLatexNDC(0.65, 0.63, "P_{T} > 0.7 GeV/c, |y| < 1.0");
+      text->DrawLatexNDC(0.65, 0.63, "P_{T, #Lambda} > 0.7 GeV/c, |y| < 1.0");
 
 
       TLegend *leg11_1 = new TLegend(0.63,0.27,0.89,0.37);
@@ -918,7 +918,7 @@ void plot(){
       h1D_dN_dcos_thets_star_weight->GetYaxis()->SetRangeUser(0.4,0.65);
       h1D_dN_dcos_thets_star_weight->SetLineColor(kBlue);
       h1D_dN_dcos_thets_star_weight->SetMarkerColor(kBlue);
-      h1D_dN_dcos_thets_star_weight->SetMarkerStyle(20);
+      h1D_dN_dcos_thets_star_weight->SetMarkerStyle(21);
       h1D_dN_dcos_thets_star_weight->SetMarkerSize(1.0);
       h1D_dN_dcos_thets_star_weight->Draw("EP");
 
@@ -927,7 +927,7 @@ void plot(){
       text->DrawLatexNDC(0.65, 0.87, "#Lambda JAM2");
       text->DrawLatexNDC(0.65, 0.79, "20 % - 50 %");
       text->DrawLatexNDC(0.65, 0.71, "#sqrt{s_{NN}} = 3.0 GeV");
-      text->DrawLatexNDC(0.65, 0.63, "P_{T} > 0.7 GeV/c, |y| < 1.0");
+      text->DrawLatexNDC(0.65, 0.63, "P_{T, #Lambda} > 0.7 GeV/c, |y| < 1.0");
 
       
       TLegend *leg11_2 = new TLegend(0.63,0.27,0.80,0.37);
@@ -976,7 +976,7 @@ void plot(){
       text->DrawLatexNDC(0.65, 0.87, "#Lambda JAM2");
       text->DrawLatexNDC(0.65, 0.79, "20 % - 50 %");
       text->DrawLatexNDC(0.65, 0.71, "#sqrt{s_{NN}} = 3.0 GeV");
-      text->DrawLatexNDC(0.65, 0.63, "P_{T} > 0.7 GeV/c, |y| < 1.0");
+      text->DrawLatexNDC(0.65, 0.63, "P_{T, #Lambda} > 0.7 GeV/c, |y| < 1.0");
 
 
 

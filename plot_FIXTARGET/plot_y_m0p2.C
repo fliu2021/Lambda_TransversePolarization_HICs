@@ -4,7 +4,8 @@
 void plot_y_m0p2(){
 
 	   double sqrt_sNN = 3.0;
-      double alpha = 0.642;
+      //double alpha = 0.642;
+      double alpha = 0.747;
 
 	   int *centrality_charged_multi_higher; 
        int *centrality_charged_multi_lower ;

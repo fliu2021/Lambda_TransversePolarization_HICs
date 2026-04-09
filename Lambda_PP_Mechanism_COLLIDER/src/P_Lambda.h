@@ -17,7 +17,8 @@ public:
 	Lambda_decay_RestFrame()
 		:mass_lambda(0),xF(0) 
 	{
-		alpha = 0.642 ;
+		//alpha = 0.642 ;
+		alpha = 0.747;
 		mass_proton = 0.93827208943;
 		mass_pion_minus = 0.13957039 ;
 		

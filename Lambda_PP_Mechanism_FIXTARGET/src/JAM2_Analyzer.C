@@ -969,11 +969,11 @@ void JAM2_Analyzer::Loop(){
 
 
       //For a quick look. 
-      std::cout<<"Unweight EP:"<< h1D_sin_phi_star_EP_un_weight ->GetMean()*100*8/3.14/0.642<<" +/-"<<h1D_sin_phi_star_EP_un_weight ->GetMeanError()<<std::endl;
-      std::cout<<"Unweight RP:"<< h1D_sin_phi_star_RP_un_weight ->GetMean()*100*8/3.14/0.642<<" +/-"<<h1D_sin_phi_star_RP_un_weight ->GetMeanError()<<std::endl;
+      //std::cout<<"Unweight EP:"<< h1D_sin_phi_star_EP_un_weight ->GetMean()*100*8/3.14/0.642<<" +/-"<<h1D_sin_phi_star_EP_un_weight ->GetMeanError()<<std::endl;
+      //std::cout<<"Unweight RP:"<< h1D_sin_phi_star_RP_un_weight ->GetMean()*100*8/3.14/0.642<<" +/-"<<h1D_sin_phi_star_RP_un_weight ->GetMeanError()<<std::endl;
 
-      std::cout<<"Weight EP:"<< h1D_sin_phi_star_EP_weight ->GetMean()*100*8/3.14/0.642<<" +/-"<<h1D_sin_phi_star_EP_weight ->GetMeanError()<<std::endl;
-      std::cout<<"Weight RP:"<< h1D_sin_phi_star_RP_weight ->GetMean()*100*8/3.14/0.642<<" +/-"<<h1D_sin_phi_star_RP_weight ->GetMeanError()<<std::endl;
+      //std::cout<<"Weight EP:"<< h1D_sin_phi_star_EP_weight ->GetMean()*100*8/3.14/0.642<<" +/-"<<h1D_sin_phi_star_EP_weight ->GetMeanError()<<std::endl;
+      //std::cout<<"Weight RP:"<< h1D_sin_phi_star_RP_weight ->GetMean()*100*8/3.14/0.642<<" +/-"<<h1D_sin_phi_star_RP_weight ->GetMeanError()<<std::endl;
       
       
 

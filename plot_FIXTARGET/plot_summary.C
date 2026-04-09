@@ -214,9 +214,9 @@ void plot_summary(){
 	mg->Add(gr_EP_direct_average);
 	//mg->Add(gr_RP);
 
-	mg->GetXaxis()->SetTitle("P_{#Lambda}^{(GP)} (%)");
+	mg->GetXaxis()->SetTitle("#bar{P}_{#Lambda}^{(GP)} (%)");
 	mg->GetXaxis()->CenterTitle();
-	mg->GetXaxis()->SetTitleSize(0.07);
+	mg->GetXaxis()->SetTitleSize(0.065);
 	mg->GetXaxis()->SetTitleOffset(0.69);
 
 	mg->GetYaxis()->SetTitle("");
@@ -308,8 +308,8 @@ void plot_summary(){
      text->SetTextColor(kBlack);
 	 //text->SetTextSize(0.037);
      text->DrawLatexNDC(0.55 , 0.855, "#sqrt{S_{NN}} = 3 GeV    20 % - 50 %");
-     text->DrawLatexNDC(0.55, 0.755, "P_{T} > 0.7 GeV/c");
-     text->DrawLatexNDC(0.55, 0.655, "-0.2 < y < 1.0 ");
+     text->DrawLatexNDC(0.55, 0.755, "P_{T, #Lambda} > 0.7 GeV/c");
+     text->DrawLatexNDC(0.55, 0.655, "-0.2 < y_{#Lambda} < 1.0 ");
 
 
 
